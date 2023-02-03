@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  /* height: 40vmin; */
   pointer-events: none;
 }
 
@@ -32,7 +32,23 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+
+#imgReact {
+  background-image: url(./../../public/logo512.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  width: 100vw;
+  top: 0;
+  z-index: -1;
+  filter: opacity(0.1);
 }

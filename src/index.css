@@ -5,9 +5,28 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  /* Mis estilos */
+  background-color: #151f21;
+
+  /* background-image: url();
+  background-repeat: no-repeat;
+  background-position: center; */
+  min-height: 100vh;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* Mis estilos */
+div#root {
+  padding-right: 10vw;
+  padding-left: 10vw;
+  text-align: center;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+
+  /* background-color: #151f21eb; */
 }

@@ -1,0 +1,36 @@
+.TodoSearch {
+    width: 80%;
+    /* margin-left: 10%;
+    margin-right: 10%; */
+    margin: 0;
+    border-radius: 10px;
+    line-height: 2.3rem;
+    font-size: 1.2rem;
+    border: 1px transparent solid;
+    padding-left: 15px;
+    /* padding-right: 15px; */
+    box-shadow: -5px 5px 20px 0px white;
+    margin-bottom: 7vh;
+}
+
+.TodoSearch::placeholder {
+    color: #A5A5A5;
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+
+.TodoSearch:focus {
+    outline-color: transparent;
+    border: 1px #61DAFA solid;
+    box-shadow: -5px 5px 20px 0px #61DAFA;
+}
+
+.fa-magnifying-glass {
+    position: absolute;
+    margin-top: 12px;
+    margin-left: -25px;
+}
+
+.TodoSearch:focus ~ .fa-magnifying-glass {
+    color: #61DAFA;
+}
