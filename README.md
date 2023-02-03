@@ -1,7 +1,7 @@
 # Paquete necesario para compilar y crear pagina estatica.
 npm install --save-dev gh-pages
 <!-- Al final del package.json -->
-"homepage": "https://github.com/Jonny-Start.github.io/TO_DO"
+"homepage": "https://Jonny-Start.github.io/TO_DO"
 <!-- Nuevos scripts -->
 "predeploy": "npm run build",
 "deploy": "gh-pages -d build"
